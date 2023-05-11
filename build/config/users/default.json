@@ -1,0 +1,30 @@
+{
+  "user1:user1pass": {
+    "uid": "user1",
+    "telephoneNumber": "1 555 123 4567",
+    "mail": "user1@example.com",
+    "eduPersonScopedAffiliation": [
+      "group1",
+      "group2"
+    ],
+    "l": "Somewhere",
+    "eduPersonPrincipalName": "user1@example.com",
+    "sn": "One",
+    "givenName": "User",
+    "title": "Sampler"
+  },
+  "user2:user2pass": {
+    "uid": "user2",
+    "telephoneNumber": "1 555 234 5678",
+    "mail": "user2@example.com",
+    "eduPersonScopedAffiliation": [
+      "group2",
+      "group3"
+    ],
+    "l": "Somewhere else",
+    "eduPersonPrincipalName": "user2@example.com",
+    "sn": "Two",
+    "givenName": "User",
+    "title": "Sampler"
+  }
+}

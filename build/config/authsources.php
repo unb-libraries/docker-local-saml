@@ -7,21 +7,8 @@ $config = [
       // any authentication source.
       'core:AdminPassword',
   ],
-  'example-userpass' => [
-    'exampleauth:UserPass',
-    'user1:user1pass' => [
-      'telephoneNumber' => '1 555 123 4567',
-      'mail' => 'user1@example.com',
-      'uid' => 'user1',
-      'eduPersonScopedAffiliation' => [
-        'group1',
-        'group2',
-      ],
-      'l' => 'Somewhere',
-      'eduPersonPrincipalName' => 'user1@example.com',
-      'sn' => 'One',
-      'givenName' => 'User',
-      'title' => 'Sampler',
-    ]
-  ],
+  'example-userpass' => array_merge(
+    ['exampleauth:UserPass'],
+    json_decode(file_get_contents(__DIR__ . '/users/default.json'), TRUE)
+  ),
 ];

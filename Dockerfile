@@ -8,6 +8,7 @@ WORKDIR /var/www/simplesamlphp
 COPY ./build /build
 
 RUN mv /build/config/authsources.php config/ && \
+    mv /build/config/users config/ && \
     mv /build/metadata/saml20-idp-hosted.php metadata/
 
 # Container metadata.
