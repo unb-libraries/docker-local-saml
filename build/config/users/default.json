@@ -1,30 +1,134 @@
 {
-  "user1:user1pass": {
-    "uid": "user1",
-    "telephoneNumber": "1 555 123 4567",
-    "mail": "user1@example.com",
-    "eduPersonScopedAffiliation": [
-      "group1",
-      "group2"
-    ],
-    "l": "Somewhere",
-    "eduPersonPrincipalName": "user1@example.com",
-    "sn": "One",
-    "givenName": "User",
-    "title": "Sampler"
+  "jdoe:jdoepass": {
+    "uid": "jdoe",
+    "givenName": "Jane",
+    "sn": "Doe",
+    "title": "Library Assistant",
+    "telephoneNumber": "+15551234567",
+    "mail": "j.doe@unb.ca",
+    "eduPersonPrincipalName": "j.doe@unb.ca",
+    "eduPersonScopedAffiliation": ["members", "staff"],
+    "l": "Harriet Irving Library"
   },
-  "user2:user2pass": {
-    "uid": "user2",
-    "telephoneNumber": "1 555 234 5678",
-    "mail": "user2@example.com",
-    "eduPersonScopedAffiliation": [
-      "group2",
-      "group3"
-    ],
-    "l": "Somewhere else",
-    "eduPersonPrincipalName": "user2@example.com",
-    "sn": "Two",
-    "givenName": "User",
-    "title": "Sampler"
+  "msmi:msmipass": {
+    "uid": "msmi",
+    "givenName": "Michael",
+    "sn": "Smith",
+    "title": "Librarian",
+    "telephoneNumber": "+15552345678",
+    "mail": "m.smith@unb.ca",
+    "eduPersonPrincipalName": "m.smith@unb.ca",
+    "eduPersonScopedAffiliation": ["members", "staff"],
+    "l": "Science and Forestry Library"
+  },
+  "awil:awilpass": {
+    "uid": "awil",
+    "givenName": "Alice",
+    "sn": "Wilson",
+    "title": "Digital Services Coordinator",
+    "telephoneNumber": "+15553456789",
+    "mail": "a.wilson@unb.ca",
+    "eduPersonPrincipalName": "a.wilson@unb.ca",
+    "eduPersonScopedAffiliation": ["members", "staff"],
+    "l": "Harriet Irving Library"
+  },
+  "brob:brobpass": {
+    "uid": "brob",
+    "givenName": "Brian",
+    "sn": "Robinson",
+    "title": "Library Technician",
+    "telephoneNumber": "+15554567890",
+    "mail": "b.robinson@unb.ca",
+    "eduPersonPrincipalName": "b.robinson@unb.ca",
+    "eduPersonScopedAffiliation": ["members", "staff"],
+    "l": "Harriet Irving Library"
+  },
+  "egra:egrapass": {
+    "uid": "egra",
+    "givenName": "Emily",
+    "sn": "Grant",
+    "title": "Reference Librarian",
+    "telephoneNumber": "+15555678901",
+    "mail": "e.grant@unb.ca",
+    "eduPersonPrincipalName": "e.grant@unb.ca",
+    "eduPersonScopedAffiliation": ["members", "staff"],
+    "l": "Engineering and Computer Science Library"
+  },
+  "jcru:jcrupass": {
+    "uid": "jcru",
+    "givenName": "Jessica",
+    "sn": "Cruz",
+    "title": "Associate Professor",
+    "telephoneNumber": "+15556789012",
+    "mail": "j.cruz@unb.ca",
+    "eduPersonPrincipalName": "j.cruz@unb.ca",
+    "eduPersonScopedAffiliation": ["members", "faculty"],
+    "l": "Hazen Hall"
+  },
+  "bro:bropass": {
+    "uid": "bro",
+    "givenName": "Benjamin",
+    "sn": "Rodriguez",
+    "title": "IT Manager",
+    "telephoneNumber": "+15557890123",
+    "mail": "b.rodriguez@unb.ca",
+    "eduPersonPrincipalName": "b.rodriguez@unb.ca",
+    "eduPersonScopedAffiliation": ["members", "staff"],
+    "l": "Head Hall"
+  },
+  "fmar:fmarpass": {
+    "uid": "fmar",
+    "givenName": "Fiona",
+    "sn": "Martin",
+    "title": "Faculty",
+    "telephoneNumber": "+15559901123",
+    "mail": "f.martin@unb.ca",
+    "eduPersonPrincipalName": "f.martin@unb.ca",
+    "eduPersonScopedAffiliation": ["members", "faculty"],
+    "l": "Sir James Dunn Hall"
+  },
+  "mwan:mwanpass": {
+    "uid": "mwan",
+    "givenName": "Michelle",
+    "sn": "Wang",
+    "title": "Research Assistant",
+    "telephoneNumber": "+15558901234",
+    "mail": "m.wang@unb.ca",
+    "eduPersonPrincipalName": "m.wang@unb.ca",
+    "eduPersonScopedAffiliation": ["members", "staff"],
+    "l": "Sir James Dunn Hall"
+  },
+  "kpat:kpatpass": {
+    "uid": "kpat",
+    "givenName": "Kyle",
+    "sn": "Patterson",
+    "title": "Student",
+    "telephoneNumber": "+15559901123",
+    "mail": "k.patterson@unb.ca",
+    "eduPersonPrincipalName": "k.patterson@unb.ca",
+    "eduPersonScopedAffiliation": ["members", "student"],
+    "l": "Sir Howard Douglas Hall"
+  },
+  "nbak:nbakpass": {
+    "uid": "nbak",
+    "givenName": "Natalie",
+    "sn": "Baker",
+    "title": "Acquisitions Librarian",
+    "telephoneNumber": "+15559901123",
+    "mail": "n.baker@unb.ca",
+    "eduPersonPrincipalName": "n.baker@unb.ca",
+    "eduPersonScopedAffiliation": ["members", "staff"],
+    "l": "Hans W. Klohn Commons"
+  },
+  "jpar:jparpass": {
+    "uid": "jpar",
+    "givenName": "Jessica",
+    "sn": "Park",
+    "title": "Student",
+    "telephoneNumber": "+15551234567",
+    "mail": "j.park@stu.ca",
+    "eduPersonPrincipalName": "j.park@stu.ca",
+    "eduPersonScopedAffiliation": ["stu"],
+    "l": "Margaret Norrie McCain Hall"
   }
 }
