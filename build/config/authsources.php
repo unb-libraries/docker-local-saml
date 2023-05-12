@@ -1,5 +1,6 @@
 <?php
 
+$userset = getenv('SIMPLESAMLPHP_USERSET');
 $config = [
   // This is a authentication source which handles admin authentication.
   'admin' => [
@@ -9,6 +10,6 @@ $config = [
   ],
   'example-userpass' => array_merge(
     ['exampleauth:UserPass'],
-    json_decode(file_get_contents(__DIR__ . '/users/default.json'), TRUE)
+    json_decode(file_get_contents(__DIR__ . "/users/$userset.json"), TRUE)
   ),
 ];
