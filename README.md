@@ -43,7 +43,7 @@ The image comes with 12 sample UNB users, distributed into "members", "staff", "
 | brob  | Brian      | Robinson  | members, staff         |
 | egra  | Emily      | Grant     | members, staff         |
 | jcru  | Jessica    | Cruz      | members, faculty       |
-| bro   | Benjamin   | Rodriguez | members, staff         |
+| brod  | Benjamin   | Rodriguez | members, staff         |
 | fmar  | Fiona      | Martin    | members, faculty       |
 | mwan  | Michelle   | Wang      | members, staff         |
 | kpat  | Kyle       | Patterson | members, student       |

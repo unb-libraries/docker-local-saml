@@ -65,8 +65,8 @@
     "eduPersonScopedAffiliation": ["members", "faculty"],
     "l": "Hazen Hall"
   },
-  "bro:bropass": {
-    "uid": "bro",
+  "brod:brodpass": {
+    "uid": "brod",
     "givenName": "Benjamin",
     "sn": "Rodriguez",
     "title": "IT Manager",
