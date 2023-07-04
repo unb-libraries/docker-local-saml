@@ -11,6 +11,7 @@ jobs:
     with:
       image-name: 'ghcr.io/unb-libraries/simplesamlphp'
       push-branches: '["1.x"]'
+      platforms: linux/amd64
     secrets:
       GH_CONTAINER_REGISTRY_USER: ${{ secrets.GH_CONTAINER_REGISTRY_USER }}
       GH_CONTAINER_REGISTRY_TOKEN: ${{ secrets.GH_CONTAINER_REGISTRY_TOKEN }}
