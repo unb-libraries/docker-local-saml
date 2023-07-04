@@ -2,7 +2,7 @@ FROM kristophjunge/test-saml-idp
 
 ENV SIMPLESAMLPHP_SP_ENTITY_ID "localhost"
 ENV SIMPLESAMLPHP_SP_ASSERTION_CONSUMER_SERVICE "http://localhost:3000/login/saml"
-ENV SIMPLESAMLPHP_USERSET "unb"
+ENV SIMPLESAMLPHP_USERSET "default"
 
 WORKDIR /var/www/simplesamlphp
 
