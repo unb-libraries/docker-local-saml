@@ -1,7 +1,9 @@
 # unb-libraries/docker-simplesamlphp
-A Docker image to mock local SAML authentication using SimpleSAMLPHP.
+A Docker image to add local SAML authentication to your _Docker Compose_ project, based on SimpleSAMLPHP.
 
 ## Usage
+Add the following to your ```docker-compose.yml``` file:
+
 ```yml
 services:
   # ...
@@ -19,7 +21,7 @@ services:
       - 8443:8443
 ```
 
-The ```./env/saml/env``` should provide the following environment variable values:
+Provide the following environment variables, e.g. in a ```.env``` (filename must match the file you reference in above snippet):
 
 ```sh
 # A unique identifier of your local Service Provider (SP)
@@ -31,9 +33,12 @@ SIMPLESAMLPHP_SP_ASSERTION_CONSUMER_SERVICE='http://localhost:3000/login/saml'
 # (optional) Use a different set of users. Refer to build/config/users for available options.
 SIMPLESAMLPHP_USERSET='unb'
 ```
+Edit variable values, e.g. port numbers, paths, accordingly to your project's needs.
+
+Finally, rebuild your docker project.
 
 ### Users
-The image comes with 12 sample UNB users, distributed into "members", "staff", "faculty", "student", and "stu" groups. Every user login follows a ```username:usernamepass``` schema.
+The image comes with 12 sample UNB users, distributed into "members", "staff", "faculty", "student", and "stu" groups. Every user login follows a ```<username>:<username>pass``` schema.
 
 | UID   | First Name | Last Name | Groups                 |
 |-------|------------|-----------|------------------------|
